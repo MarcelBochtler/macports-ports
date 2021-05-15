@@ -4,7 +4,7 @@ PortSystem      1.0
 PortGroup       muniversal 1.0
 
 name            findutils
-version         4.7.0
+version         4.8.0
 revision        0
 categories      sysutils
 license         GPL-3+
@@ -21,9 +21,9 @@ master_sites    gnu
 
 use_xz          yes
 
-checksums       rmd160  333ca9e1e3eae47df635be2c13f7f470ff14d3d7 \
-                sha256  c5fefbdf9858f7e4feb86f036e1247a54c79fc2d8e4b7064d5aaa1f47dfa789a \
-                size    1895048
+checksums       rmd160  cc1cd923927d5acf7e6a9ec0e28d1723acbd4774 \
+                sha256  57127b7e97d91282c6ace556378d5455a9509898297e46e10443016ea1387164 \
+                size    1983096
 
 depends_lib     port:gettext \
                 port:libiconv
