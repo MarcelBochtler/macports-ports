@@ -1,0 +1,23 @@
+/# -*- coding: utf-8; mode: tcl; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- vim:fenc=utf-8:ft=tcl:et:sw=4:ts=4:sts=4
+
+PortSystem          1.0
+PortGroup           npm 1.0
+
+name                commitlint-cli
+version             17.4.2
+revision            0
+
+npm.rootname        @commitlint/cli
+
+categories          devel
+license             MIT
+maintainers         {bochtler.io:macports @MarcelBochtler} \
+                    openmaintainer
+platforms           darwin
+description         Lint commit messages
+long_description    CLI implementation of commitlint.
+homepage            https://commitlint.js.org
+
+checksums           rmd160  6ab0b967eb6e0d64cfcb8d0ce54e7846dd15a047 \
+                    sha256  9c234a5b86d8f53503b96aa236da011b6c5af71a2c16f81a9e23aa1a6d9b6ce4 \
+                    size    606735
